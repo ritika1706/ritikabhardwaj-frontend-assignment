@@ -1,0 +1,633 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Global Styles */
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+}
+
+#header {
+    width: 1440px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #1A1A1A;
+    z-index: 999;
+
+
+
+    position: sticky;
+    /* to make sticky navbar*/
+}
+
+#left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#left li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#left li a {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    text-decoration: none;
+
+    color: #626262;
+
+}
+
+#left li a:hover {
+    color: rgb(41, 8, 190);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    text-decoration: none;
+    width: 76px;
+
+    color: #626262;
+
+}
+
+#navbar li a:hover {
+    color: rgb(33, 223, 16);
+}
+
+
+#logo {
+    width: 1440px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+
+    background: #1A1A1A;
+    z-index: 999;
+
+    padding: 0px 2px 0px 0px;
+
+
+    position: sticky;
+}
+
+#logo li {
+
+    list-style: none;
+
+}
+
+#logo li a {
+    
+    font-size: 10.3px;
+    font-weight: 400;
+
+
+    text-align: left;
+
+    text-decoration: none;
+    width: 76px;
+
+    color: #f8f1f1;
+
+}
+
+#logo li a:hover {
+    color: rgb(33, 223, 16);
+}
+
+#logo .sk {
+    width: 176px;
+    height: 60px;
+   top: 41px;
+    margin-left: 90px;
+    border: 1px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 275;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+
+}
+
+#logo .ww {
+    width: 89px;
+    height: 16px;
+   top: 70px;
+    left: 1200px;
+    border: 1px;
+    margin-left: 70%;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    
+
+}
+
+#logo .wb {
+    width: 89px;
+    height: 16px;
+   top: 70px;
+    left: 1200px;
+    border: 1px;
+
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+#logo .shline{
+    width: 1260px;
+height: 22px;
+top: 87px;
+left: 90px;
+border: 1px;
+margin-top:30px;
+
+}
+#line {
+    width: 1260px;
+    height: 22px;
+   top: 87px;
+    left: 90px;
+
+    border: 1px solid #FFFFFF
+}
+
+
+
+#secnav {
+
+    width: 1440px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #1A1A1A;
+    z-index: 999;
+
+
+    position: sticky;
+
+}
+
+#secnav li {
+
+    list-style: none;
+    padding: 0 200px 0 25px;
+}
+
+#secnav li a {
+    width: 71px;
+    height: 28px;
+top: 115px;
+    left: 137px;
+    border: 1px;
+
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    text-align: left;
+
+    text-decoration: none;
+    width: 76px;
+
+    color: #f8f1f1;
+
+}
+
+#secnav li a:hover {
+    color: rgb(33, 223, 16);
+}
+
+
+
+
+
+
+
+#fresh .picbg  {
+    background-image: url(pictures/freshlookbg.png);
+  
+    width: 1440px;
+    height: 659px;
+   top: 41px;
+    opacity: 0.5px;
+
+    background-color: #161615;
+
+
+
+
+    /* now i want items in center so use flex but since flex is by default vertical change direction to column*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+#fresh .picbg .image3 {
+    position: absolute;
+    width: 367px;
+    height: 371.5099792480469px;
+    top: 129px;
+    left: 1010px;
+    border: 1px;
+    
+}
+
+
+#fresh .picbg .image2 {
+   margin-top: 85px;
+    position: absolute;
+    width: 432px;
+    height: 654.9508666992188px;
+   top: 133.04913330078125px;
+    left: 899px;
+opacity: 0.8;
+
+
+
+
+
+    /* now i want items in center so use flex but since flex is by default vertical change direction to column*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+/*styling text*/
+#fresh .picbg .image4{
+    position: relative;
+    width: 993px;
+height: 354.30108642578125px;
+margin-top: 220.61749267578125px;
+left: 447px;
+
+}
+
+
+#fresh .text .fre {
+    position: absolute;
+    width: 689px;
+    height: 151px;
+   top: 280px;
+    left: 115px;
+    border: 1px;
+
+    font-family: Syne;
+    font-size: 135px;
+    font-weight: 800;
+    line-height: 103px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:
+        #FFFFFF;
+
+}
+
+#fresh .text .year {
+    position: absolute;
+    width: 710px;
+    height: 144px;
+    top: 396px;
+    left: 424px;
+    border: 2px;
+
+    font-family: Syne;
+    font-size: 135px;
+    font-weight: 800;
+    line-height: 103px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+
+
+}
+
+#fresh .text .look {
+    position: absolute;
+    width: 527px;
+    height: 103px;
+    top: 505px;
+    left: 187px;
+    border: 1px;
+    color: #FFFFFF;
+    font-family: Syne;
+    font-size: 135px;
+    font-weight: 800;
+    line-height: 103px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+
+}
+
+#fresh button {
+
+position: absolute;
+    width: Hug(103px);
+    height: Hug (24px);
+  
+    left: 100px;
+    border: 1px;
+    gap: 3px;
+    color: #FFFFFF;
+    background-color: #1A1A1A;
+    border: 1px solid #FFFFFF;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#fresh button:hover {
+    color: blue;
+}
+
+
+
+#product .protext{
+    position: absolute;
+}
+
+
+#product .pro1 {
+    padding-left: 220px; 
+    width: 310px;
+    height: 322px;
+   top: 998px;
+    left: 346px;
+
+
+}
+
+#product .pro2 {
+    padding-left: 240px; 
+    width: 304px;
+    height: 322px;
+   top: 998px;
+    left: 682px;
+
+}
+
+#product .pro3 {
+    padding-left: 280px; 
+    width: 305px;
+    height: 322px;
+   top: 998px;
+    left: 1012px;
+
+}
+
+#product .pro4 {
+    padding-left: 340px; 
+    width: 304px;
+    height: 322px;
+  top: 998px;
+    left: 1343px;
+
+}
+
+/*style derscription*/
+
+/* bring all product in one row*/
+#product .pro-container {
+    display: flex;
+
+
+    padding: 80px 2px 200px 0px;
+
+}
+
+
+
+
+
+#news {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(pictures/newsbg.png);
+    width: 1440px;
+height: 520px;
+top: 1562px;
+
+
+}
+#news .form{
+    width: 558px;
+    top: 1674px;
+    left: 616px;
+    border: 1px;
+    padding: 5px; /* Adjust the padding as needed */
+    margin: 2px 0;   
+
+
+}
+
+
+#news .newstext h4 {
+    width: 385px;
+    height: 52px;
+   top: 1644px;
+    left: 103px;
+
+    font-family: Syne;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+   color: #FFFFFF80;
+    ;
+
+
+}
+
+#news .newstext p {
+    width: 337px;
+    height: 52px;
+    top: 1661px;
+    left: 103px;
+    color: #FFFFFF80;
+
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  
+
+
+
+}
+
+#news .text h1 {
+    width: 1159px;
+    height: 236px;
+   top: 1846px;
+    left: 90px;
+    border: 1px;
+
+    font-family: Syne;
+    font-size: 135px;
+    font-weight: 800;
+    line-height: 103px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+#news .text {
+    display: flex;
+}
+ #news .text button{
+    margin-left: -90px;
+    width: 181px;
+height: 181px;
+top: 1822px;
+left: 1162px;
+background: 0;
+background-color: transparent;
+
+ }
+ #footer{
+   background-image: url(pictures/Rectangle28.png);
+    width: 1455px;
+    height: 66px;
+  top: 2082px;
+  
+  margin-left: -15px;
+    
+ }
+ .fotext{
+    padding-top: 25px;
+    width: 237px;
+    height: 18px;
+  top: 2106px;
+    margin-left: 601px;
+    font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+
+color:
+#FFFFFF;
+    
+    
+ }
+
+ @media (max-width: 768px) {
+    /* Styles for small screens */
+
+
+}
+@media (min-width: 1025px) {
+    /* Styles for large screens */
+
+
+
+}
